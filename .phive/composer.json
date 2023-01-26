@@ -1,0 +1,9 @@
+{
+    "name": "myproject/phive_stuff",
+    "description": "A replacement package for phars",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "replace" : {
+        "vimeo/psalm": "*"
+    }
+}

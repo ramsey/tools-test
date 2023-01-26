@@ -1,3 +1,4 @@
-/.phive/
+/.phive/*
+!/.phive/composer.json
 /tools/
 /vendor/

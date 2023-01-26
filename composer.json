@@ -17,6 +17,19 @@
         "amphp/amp": "^3.0",
         "revolt/event-loop": "^1.0"
     },
+    "require-dev": {
+        "myproject/phive_stuff": "dev-with-phive-and-plugins",
+        "psalm/plugin-mockery": "^1.1",
+        "psalm/plugin-phpunit": "^0.18.4"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": ".phive/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "scripts": {
         "post-install-cmd": "phive install --copy",
         "post-update-cmd": "phive install --copy"

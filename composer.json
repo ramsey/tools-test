@@ -1,0 +1,22 @@
+{
+    "name": "ramsey/tools-test",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ramsey\\ToolsTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ben Ramsey",
+            "email": "ben@benramsey.com"
+        }
+    ],
+    "require": {
+        "amphp/amp": "^3.0",
+        "revolt/event-loop": "^1.0"
+    },
+    "scripts": {
+    }
+}

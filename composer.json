@@ -18,5 +18,7 @@
         "revolt/event-loop": "^1.0"
     },
     "scripts": {
+        "post-install-cmd": "phive install --copy",
+        "post-update-cmd": "phive install --copy"
     }
 }

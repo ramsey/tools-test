@@ -18,5 +18,8 @@
         "revolt/event-loop": "^1.0"
     },
     "scripts": {
+    },
+    "require-dev": {
+        "psalm/phar": "^5.6"
     }
 }
